@@ -1,5 +1,5 @@
-FROM asciidoctor/docker-asciidoctor:1.1.0
+FROM asciidoctor/docker-asciidoctor:1.22.0
 
-COPY entrypoint.sh entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
