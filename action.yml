@@ -1,6 +1,6 @@
 name: 'Asciidoc to html'
 description: 'convert to html from .adoc'
-author: 'mougenko'
+author: 'Serdaro'
 inputs: 
   src:
     description: 'convert src directory name'
